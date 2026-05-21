@@ -1,5 +1,5 @@
 {% set name = "omicron_utils" %}
-{% set version = "0.0.13" %}
+{% set version = "0.0.18" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/omicron_utils-{{ version }}.tar.gz
-  sha256: 5ae515825f410ef5bb8816b71019b92e84f1a902c9a514c2aac09b7822e09488
+  sha256: 84baec0408da5f774ca93e1c5d880ac715831e913f1acccf190afd6092c2c078
 
 build:
   entry_points:
@@ -43,11 +43,7 @@ about:
   summary: Collection of common classes and function supporting LIGO Omicron pipelines
   license: GPL-3.0-only
   license_file: LICENSE
-  description:
-    These classes support cofiguration file defsults for running the
-    Omicron control programs and result plotter, not the trigger
-    generatr. It also has classes for analyzing gaps and intervals
-    for processing.
+  description: These classes support cofiguration file defsults for running the Omicron control programs and result plotter, not the trigger generatr. It also has classes for analyzing gaps and intervals for processing.
 
 
 extra:
